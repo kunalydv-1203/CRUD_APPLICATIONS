@@ -1,0 +1,121 @@
+#updateheading{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.profile {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    max-width: 90%;
+}
+
+.frm2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.d1, .d2, .d3 {
+    margin-bottom: 20px;
+}
+
+.pinf {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pd1 {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.pd1:last-child {
+    margin-right: 0;
+}
+
+
+.lbl {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: inline-block;
+    font-size: 14px;
+    color: #333;
+}
+
+.inp, .txtarea, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.inp:focus, .txtarea:focus, select:focus {
+    border-color: #007bff;
+}
+
+
+.txtarea {
+    resize: vertical;
+    height: 100px;
+}
+
+
+.genderOptions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.genderOptions label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.genderOptions input {
+    margin-right: 5px;
+}
+
+
+.btnthree {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btnthree:hover {
+    background-color: #0056b3;
+}
+
+
+@media (max-width: 600px) {
+    .pinf {
+        flex-direction: column;
+    }
+
+    .pd1 {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}

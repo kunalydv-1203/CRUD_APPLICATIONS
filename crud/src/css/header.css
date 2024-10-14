@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
+    background-color: #007BFF; 
+    color: white;
+}
+
+.app-title {
+    margin: 0; 
+    font-size: 24px; 
+}
+
+.user-info {
+    display: flex;
+    align-items: center; 
+}
+
+.greeting {
+    margin: 0; 
+    font-size: 24px; 
+    margin-right: 10px; 
+}
+
+.logout-button {
+    background-color: #dc3545; 
+    color: white; 
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.logout-button:hover {
+    background-color: #c82333; 
+}
+
+.auth-buttons {
+    display: flex; 
+    gap: 10px; 
+}
+
+.loginBtn, .RegiBtn {
+    background-color: #28a745;
+    color: white; 
+    border: none;
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.loginBtn:hover, .RegiBtn:hover {
+    background-color: #218838; 
+}

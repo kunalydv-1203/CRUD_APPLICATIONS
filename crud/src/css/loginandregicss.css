@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.mainSec {
+    background-color: #f7f7f7; 
+    width: 100vw; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  
+  .parent {
+    background-color: #fff; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+    max-width: 400px; 
+    width: 100%;
+    text-align: center; 
+  }
+  
+ 
+  .one {
+    font-size: 24px;
+    color: #333; 
+    margin-bottom: 10px;
+  }
+  
+  #txt {
+    display: block;
+    font-size: 14px;
+    color: #777; 
+    margin-bottom: 20px;
+  }
+  
+ 
+  #btns {
+    margin-bottom: 20px;
+  }
+  
+  #btns button {
+    padding: 10px 15px;
+    margin: 0 10px;
+    border: none;
+    background-color: #007bff; 
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #btns button:hover {
+    background-color: #0056b3; 
+  }
+  
+
+  #form {
+    margin-bottom: 20px;
+  }
+  
+  .formlabel {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  
+  #frmBtn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #28a745; 
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #frmBtn:hover {
+    background-color: #218838; 
+  }
+  
+
+  .logout-message {
+    color: red; 
+    font-weight: bold;
+    margin: 10px 0;
+}
